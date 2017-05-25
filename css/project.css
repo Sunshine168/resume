@@ -1,0 +1,118 @@
+ .content-title{
+  padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+  }
+.interest ul li{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 85px;
+	height: 85px;
+	overflow: hidden;
+	
+}
+.interest  ul li i{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-size: 40px;
+}
+.interest-icon{
+	position: relative;
+}
+/*icon*/
+.i_eat {
+	background: url(../img/icon/eat.png?__sprite) no-repeat right top;
+}
+.i_cook {
+	background: url(../img/icon/cook.png?__sprite) no-repeat right top;
+}
+.i_basketball{
+	background: url(../img/icon/basketball.png?__sprite)no-repeat right top;
+}
+.i_trip {
+	background: url(../img/icon/trip.png?__sprite)no-repeat right top;
+}
+.i_pp{
+	background: url(../img/icon/pingpang.png?__sprite)no-repeat right top;
+}
+.i_game{
+	background: url(../img/icon/game.png?__sprite)no-repeat right top;
+}
+
+.interest .i-descr{
+	display: block;
+	text-align: center;
+}
+
+.interest-icon{
+   	position: relative;
+   	width: 50px;
+   	height: 50px;
+   	margin:0 auto;
+   }
+  .interest ul{  
+  	padding: 10px 5px;
+  	width: 600px;
+  	margin:0 auto;
+  	/*text-align: center;*/
+  		display:flex;
+		display: -webkit-box;
+		 flex-direction:row;
+		 display: -webkit-box; 
+		 display: -ms-flexbox;
+		  display: -webkit-flex; 
+		 display: flex;
+		 justify-content:space-between;
+  }
+  .centent{
+  	 min-width: 600px;
+  }
+  .content h1{
+  	margin-bottom: 30px;
+  }
+
+  .competition ul{
+    text-align: center;
+  }
+  .competition ul li{
+     padding: 5px 0;
+     font-size: 18px;
+  }
+   .competition {
+    margin-bottom: 40px;
+   }
+   /* skill*/
+   .skill{
+    margin-bottom: 50px;
+   }
+    .skill ul{
+    text-align: center;
+  }
+   .skill ul li{
+      padding: 5px 0;
+      font-size: 17px;
+   }
+   /* me*/
+   .me p {
+    line-height: 24px;
+   font-size: 16px;
+  overflow: hidden;
+  margin-bottom: 50px;
+   }
+     .me-list {
+    margin-bottom: 100px;
+  }
+  .me-list li{
+      font-size: 16px;
+      padding: 3px 0px;
+      list-style-type: square;
+      list-style-position: inside;
+  }
