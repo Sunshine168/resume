@@ -18,6 +18,9 @@ fis.match('*.{js,css,png,gif}', {
 	useHash: true // 开启 md5 戳
 });
 
+/*
+设置发布的绝对路径
+*/
 // 所有的 js
 fis.match('**.js', {
 	//发布到/static/js/目录下
