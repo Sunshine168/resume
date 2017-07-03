@@ -36,21 +36,43 @@ p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
   .favicon{
     width: 150px;
     height: 150px;
-    display: inline-block;
+    display: block;
     border-radius: 50%;
+    margin: 0 auto;
   }
   .introduce{
-    vertical-align: top;
-    display: inline-block;
-    height: 150px;
+    width: 340px;
+    text-align: center;
+    line-height: 40px;
+    height: 60px;
   }
   .introduce a{
+    display: inline-block;
     padding: 10px 20px;
     font-size: 25px;
-    display: block;
     text-decoration: none;
     color: #000;
   }
   .me{
     text-align: center;
+  }
+
+  .logo-git{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon/github.png) no-repeat;
+  }
+
+  .logo-resume{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon/resume.png) no-repeat;
+  }
+  .logo-blog{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon/blog.png) no-repeat;
   }
